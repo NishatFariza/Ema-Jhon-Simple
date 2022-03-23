@@ -1,0 +1,7 @@
+.header-nav {
+  height: 80px;
+  display: flex;
+  background-color: #1c2b35;
+  align-items: center;
+  justify-content: space-between;
+}
