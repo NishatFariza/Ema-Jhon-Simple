@@ -1,7 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
 .header-nav {
   height: 80px;
   display: flex;
   background-color: #1c2b35;
   align-items: center;
   justify-content: space-between;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.header-nav a {
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-right: 2.1rem;
+  font-family: "Lato", sans-serif;
+}
+
+.header-nav a:hover {
+  color: #ff9900;
 }
