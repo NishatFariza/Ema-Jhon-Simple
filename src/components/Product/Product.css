@@ -4,6 +4,7 @@
   border: 1px solid #95a0a7;
   padding: 7px;
   border-radius: 8px;
+  position: relative;
 }
 
 .product img {
@@ -12,10 +13,32 @@
   border-radius: 0.6rem;
   margin: 7px;
 }
+
+.product-info {
+  margin: 0 14px;
+}
+.product-info p {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
 .product-name {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 21px;
   line-height: 25px;
+  margin-top: 7px;
+}
+
+.button-cart {
+  width: 100%;
+  background-color: #ffe0b3;
+  border-radius: 0px 0px 8px 8px;
+  border: none;
+  transition: 0.7s;
+  position: absolute;
+  bottom: 0;
+}
+.button-cart:hover {
+  background-color: orange;
 }
