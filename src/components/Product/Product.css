@@ -1,12 +1,16 @@
 .product {
   width: 300px;
   height: 510px;
+  border: 1px solid #95a0a7;
+  padding: 7px;
+  border-radius: 8px;
 }
 
 .product img {
   width: 286px;
   height: 286px;
   border-radius: 0.6rem;
+  margin: 7px;
 }
 .product-name {
   font-family: "Lato";
