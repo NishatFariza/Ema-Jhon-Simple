@@ -1,5 +1,6 @@
 import React from 'react';
 import './Product.css'
+import { BsFillCartCheckFill } from 'react-icons/bs';
 
 const Product = ({product, handleAddToCart}) => {
     // const {product, handleAddToCart} = props;
@@ -16,7 +17,7 @@ const Product = ({product, handleAddToCart}) => {
                 <p><small>Ratting: {ratings} Start</small></p>
             </div>
             <button onClick={ () => handleAddToCart(product)} className='button-cart'>
-                <p>Add To Cart</p>
+                <p>Add To Cart<BsFillCartCheckFill></BsFillCartCheckFill></p>
             </button>
         </div>
     );

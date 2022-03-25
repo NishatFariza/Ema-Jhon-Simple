@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import './Shop.css'
+import { AiOutlineShoppingCart } from 'react-icons/ai';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
@@ -29,7 +30,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <h4>Order Summary</h4>
+                <h4>Order Summary <AiOutlineShoppingCart></AiOutlineShoppingCart></h4>
                 <p>Seclected Item: {cart.length}</p>
             </div>
         </div>
